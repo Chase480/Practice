@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Prompts</title>
+</head>
+
+<body>
+    <script>
+        const confirmPizza = confirm("Do you like pizza?")
+        let pizzaTopping;
+
+        if (confirmPizza) {
+            pizzaTopping = prompt("What is your favorite topping?")
+        }
+        if (confirmPizza) {
+            alert("You like " + pizzaTopping + " pizza!")
+        }
+
+        else {
+            document.write("You don't like pizza.")
+        }
+    </script>
+
+</body>
+
+</html>
